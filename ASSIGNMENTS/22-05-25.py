@@ -85,7 +85,7 @@ class Graph:
     ('V', 'W', 1), ('W', 'X', 2), ('X', 'Y', 4), ('Y', 'Z', 3),
 ]
 
-for neigh1, neigh2, weight in arestas:
+for neigh1, neigh2, weight in myEdges:
     myGraph.addEdge(neigh1, neigh2, weight)
     
     print(BFS(graph, 'A', 'Z'))
