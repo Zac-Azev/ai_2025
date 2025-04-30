@@ -49,7 +49,7 @@ class Graph:
                     
     def DJK(graph, begin, end):
         path = {node: float 'inf' for node in graph.graphers}
-        requiem = {]
+        requiem = []
         path[begin] = 0
         
         heap = [(0, begin)]
