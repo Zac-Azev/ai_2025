@@ -1,3 +1,8 @@
+#esse é um DBSCAN, que recebe vários pontos em um gráfico e analisa a proximidade entre eles em um raio em torno de cada ponto. 
+#Analisando as proximidades de cada um, conforme esse raio epsilon, consegue-se ter uma "área de influência" que cada ponto exerce sobre
+#os outros. Assim, os mais influentes se tornam core-points, e nós "coagulamos" (clusterizamos) esses pontos uns com os outros, criando 
+#uma espécie de generalização entre eles. 
+
 from sklearn.datasets import make_blobs
 from sklearn.cluster import DBSCAN
 import numpy as np
